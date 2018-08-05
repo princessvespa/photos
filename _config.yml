@@ -8,7 +8,7 @@ title:            Matapihi
 tagline:          'A window'
 description:      'A window'
 url:              http://foopod.github.io/matapihi
-baseurl:          /
+baseurl:          /matipihi/
 
 author:
   name:           'Matapihi'
