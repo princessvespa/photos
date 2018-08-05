@@ -1,0 +1,54 @@
+
+.grid-item { width: 100%; }
+
+@media screen and (min-width: 600px) {
+    .grid-item { width: 50%; }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .grid-item { width: 50%; }
+    
+}
+
+.grid-item img {
+    display: block;
+    max-width: 98%;
+    margin: auto;
+    margin-top: 8px;
+  }
+
+ .wide-container {
+    margin-left:  auto;
+    margin-right: auto;
+  }
+
+.caption{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    width: 98%;
+    margin-left: 1%;
+    background-color: rgba(0,0,0,0.4);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    font-size: 12pt;
+    opacity: 0;
+}
+
+.grid-item:hover .caption {
+  opacity: 1;
+}
+
+.fa-instagram:hover{
+    color: #b30000;
+}
+
+.lead{
+    text-align: center;   
+}
+
+.sidebar-about h1 {
+    font-size: 2.5rem;
+}

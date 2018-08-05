@@ -1,0 +1,45 @@
+---
+layout: default
+title: Home
+---
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+
+<div class="grid">
+    {% for post in paginator.posts %}
+    <div class="grid-item">
+        <img src="{{ post.image }}"/>
+        <div class="caption">
+            <span class="caption-text">{{ post.caption }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    var elem = document.querySelector('.grid');
+    imagesLoaded( '.grid', function(){
+        var msnry = new Masonry( '.grid', {
+            itemSelector: '.grid-item',
+            percentPosition: true
+        });
+    });
+</script>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

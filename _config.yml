@@ -1,0 +1,24 @@
+
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Matapihi
+tagline:          'A window'
+description:      'A window'
+url:              http://foopod.github.io/matapihi
+baseurl:          /
+
+author:
+  name:           'Matapihi'
+  url:            https://twitter.com/matapihi
+
+paginate:         5
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  
+# Custom
+instagram : matapihi
