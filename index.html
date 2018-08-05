@@ -11,9 +11,11 @@ title: Home
     {% for post in paginator.posts %}
     <div class="grid-item">
         <img src="{{ post.image }}"/>
+        {% if post.caption %}
         <div class="caption">
             <span class="caption-text">{{ post.caption }}</span>
         </div>
+        {% endif %}
     </div>
     {% endfor %}
 </div>

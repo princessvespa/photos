@@ -2,7 +2,7 @@
 layout: post
 title: Placeholder
 image: https://via.placeholder.com/800x1200
-caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+caption: 
 date: 2017-07-22
 tags: []
 ---
