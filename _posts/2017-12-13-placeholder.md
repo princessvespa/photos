@@ -1,8 +1,0 @@
----
-layout: post
-title: Placeholder
-image: https://via.placeholder.com/500x400
-caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-date: 2017-12-13
-tags: []
----

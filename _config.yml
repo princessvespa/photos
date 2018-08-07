@@ -4,21 +4,21 @@
 permalink:        pretty
 
 # Setup
-title:            Matapihi
-tagline:          'A window'
-description:      'A window'
+title:            Athena's Moments
+tagline:          'Athena Rhodes'
+description:      'Athena Rhodes'
 url:              http://foopod.github.io/matapihi
-baseurl:          /matapihi/
+baseurl:          /
 
 author:
-  name:           'Matapihi'
-  url:            https://twitter.com/matapihi
+  name:           'Athena Rhodes'
+  url:            https://twitter.com/athena
 
-paginate:         5
+paginate:         6
 
 gems:
   - jekyll-paginate
   - jekyll-gist
   
 # Custom
-instagram : matapihi
+instagram : wild_for_wildlifes
